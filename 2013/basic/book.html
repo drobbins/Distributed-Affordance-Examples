@@ -49,39 +49,7 @@
     </div>
   </div>
   
-  <div id="book2" itemscope itemtype="http://schema.org/Book">
-
-    <span itemprop="name">Envisioning Information</span> -
-    <link itemprop="bookFormat" href="http://schema.org/Hardcover">Hardcover
-    by <a itemprop="author" href="#tufte">Edward R. Tufte</a>
-
-    <div itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating">
-      <span itemprop="ratingValue">4.5</span> stars -
-      <span itemprop="reviewCount">90</span> reviews
-    </div>
-
-    <div itemprop="offers priceOffers" itemscope itemtype="http://schema.org/Offer http://schema.org/Intangible">
-      Price: <span itemprop="price">$40.89</span>
-      <meta itemprop="priceCurrency" content="USD" />
-      <link itemprop="availability" href="http://schema.org/InStock">In Stock
-    </div>
-
-    <!--
-      The element below instructs the browser to generate distributed affordance
-      for the element with ID "book".
-
-      It's crucial to note that the distributed affordance generator
-      has never heard of the book "The Catcher in the Rye" or this page.
-      It only knows that it has services that operate on books.
-      These descriptions are then "instantiated" to make the links
-      directly point to a page that concerns the book.
-      For instance, the "Buy on Amazon" link goes directly to the book page,
-      instead of simply to the Amazon home page or search page.
-    -->
-    <div class="affordances" data-for="book2">
-      <em>the browser will insert affordances here</em>
-    </div>
-  </div>
+  
 
   <!-- This shim helps browsers that don't natively support distributed affordance. -->
   <script src="http://shim.distributedaffordance.org/"></script>
